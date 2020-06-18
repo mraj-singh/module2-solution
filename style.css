@@ -1,0 +1,130 @@
+*{
+    background-color: white;
+    box-sizing: border-box;
+    margin-left: 1px;
+    margin-top: 10px;
+    
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+    font-style: italic;
+}
+section{
+    width: 33%;
+    height: 50%;
+    float: left;
+    border: 2px solid black;
+    margin-right: 1px;
+    background-color: gray;
+}
+.chicken{
+    
+    
+    
+}
+.head1{
+    margin-top: 0px;
+    width: 40%;
+    height: 50px;
+    background-color: coral;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    float: right;
+    border: 2px solid black;
+    position: relative;
+    top: 0px;
+    left: 2px ; 
+    
+}
+.head2{
+    margin-top: 0px;
+    width: 40%;
+    height: 50px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    float: right;
+    border: 2px solid black;
+    position: relative;
+    top: 0px;
+    left: 2px ; 
+    
+}
+.head3{
+    margin-top: 0px;
+    width: 40%;
+    height: 50px;
+    background-color: yellow;
+    color: royalblue;
+    text-align: center;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    float: right;
+    border: 2px solid black;
+    position: relative;
+    top: 0px;
+    left: 2px ; 
+    
+}
+.para{
+    color:black;
+    background-color: gray;
+    clear: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+@media (min-width: 992px){
+    .sec1, .sec2, .sec3 {
+      float: left;
+    }
+    .sec1 {
+      width: 33%;
+    }
+    .sec2 {
+      width: 33%;
+    }
+    .sec3 {
+      width: 33%;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .sec1, .sec2, .sec3 {
+      float: left;
+    }
+    .sec1 {
+      width: 33%;
+    }
+    .sec2 {
+      width: 33%;
+    }
+    .sec3 {
+      width: 66%;
+    }
+  }
+@media (max-width: 768px) {
+    .sec1, .sec2, .sec3 {
+      float: left;
+    }
+    .sec1 {
+      width: 50%;
+    }
+    .sec2 {
+      width: 50%;
+    }
+    .sec3 {
+      width: 50%;
+    }
+  }
